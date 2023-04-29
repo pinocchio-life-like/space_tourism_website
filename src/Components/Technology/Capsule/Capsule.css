@@ -1,0 +1,19 @@
+.Capsule {
+    margin-top: -8%;
+    width: 510px;
+    height: 100vh;
+    background-image: url("/public/Assets/technology/image-space-capsule-portrait.jpg");
+    transform: scale(1.1) translateX(-1vw);
+    background-repeat: no-repeat;
+    animation: fadein ease 800ms;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

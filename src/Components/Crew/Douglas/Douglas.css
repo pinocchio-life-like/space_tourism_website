@@ -1,0 +1,27 @@
+.douglasPhoto {
+    /* margin-top: 15px; */
+    width: 510px;
+    min-height: 100vh;
+    background-image: url("/public/Assets/crew/image-douglas-hurley.png");
+    animation: slide 800ms ease-in-out;
+    transform: scale(0.88) translateY(-3.5vw) translateX(0vw);
+}
+
+@keyframes slide {
+    0% {
+        transform: scale(0.88) translateX(100vw) translateY(-3.5vw);
+    }
+
+    50% {
+        transform: scale(0.88) translateX(-5vw) translateY(-3.5vw);
+    }
+
+    70% {
+        transform: scale(0.88) translateX(13vw) translateY(-3.5vw);
+    }
+
+    100% {
+        transform: scale(0.88) translateX(0vw) translateY(-3.5vw);
+    }
+
+}

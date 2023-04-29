@@ -1,0 +1,8 @@
+.anoushehPhoto {
+    /* margin-top: 15px; */
+    width: 580px;
+    min-height: 100vh;
+    background-image: url("/public/Assets/crew/image-anousheh-ansari.png");
+    transform: scale(0.88) translateX(0vw) translateY(6vh);
+    background-repeat: no-repeat;
+}

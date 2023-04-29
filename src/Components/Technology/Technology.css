@@ -1,0 +1,75 @@
+.Technology {
+    color: aliceblue;
+    background-color: "black", ;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-size: 100vw;
+    background-image: url('/public/Assets/technology/background-technology-desktop.jpg');
+}
+
+.navigateTitle {
+    margin-top: 180px;
+    margin-left: 12.5%;
+    font-family: Barlow;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.navigateTitle strong {
+    color: rgba(255, 255, 255, 0.4)
+}
+
+.technologyDetail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    height: 70vh;
+    background-color: #0B0D17;
+}
+
+.techNavigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.techNavigation div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 100%;
+    margin-bottom: 30px;
+    font-family: Bellefair;
+    font-size: 21px;
+}
+
+.techTitle {
+    line-height: 2;
+    color: white;
+    font-size: 30px;
+    font-family: bellefair;
+}
+
+.terminology {
+    font-family: Barlow;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    line-height: 2;
+}
+
+.techDescription {
+    animation: fadein ease 800ms;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

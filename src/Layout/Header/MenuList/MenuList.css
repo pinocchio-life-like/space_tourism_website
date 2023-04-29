@@ -1,0 +1,40 @@
+.MenuList {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: aliceblue;
+    align-items: center;
+    font-family: Barlow;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 76px;
+    background-color: rgba(100, 100, 100, 0.3);
+    backdrop-filter: blur(12px)
+}
+
+.MenuList a {
+    padding: 27px 0;
+    text-decoration: none;
+    color: aliceblue
+}
+
+.MenuList a:hover {
+    border-bottom: 2px solid rgb(176, 176, 176);
+}
+
+.HomepageList {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.DestinationList {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.CrewList {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.TechnologyList {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}

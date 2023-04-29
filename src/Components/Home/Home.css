@@ -1,0 +1,74 @@
+.HomePage {
+    display: flex;
+    align-items: center;
+    background-color: "black", ;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-size: 100vw;
+    background-image: url('/public/Assets/home/background-home-desktop.jpg');
+    color: aliceblue;
+    justify-content: space-around;
+}
+
+.SpaceIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    width: 390.2px;
+    margin-top: 200px;
+    margin-right: 150px;
+    animation: slideUp 800ms ease-out;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100vh) translateX(0vw);
+    }
+
+    100% {
+        transform: translateY(0vh) translateX(0vw);
+    }
+}
+
+.Explore {
+    font-size: 30px;
+    font-family: Bellefair;
+    color: black;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-top: 200px;
+    animation: bump 5000ms infinite linear;
+}
+
+@keyframes bump {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(0.92);
+    }
+
+    30% {
+        transform: scale(1.08);
+    }
+
+    50% {
+        transform: scale(1.16);
+    }
+
+    70% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

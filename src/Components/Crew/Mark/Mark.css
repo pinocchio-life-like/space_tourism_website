@@ -1,0 +1,8 @@
+.markPhoto {
+    /* margin-top: 15px; */
+    width: 510px;
+    min-height: 100vh;
+    background-image: url("/public/Assets/crew/image-mark-shuttleworth.png");
+    transform: scale(0.90) translateX(0vw);
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,20 @@
+.Header {
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    height: 76px;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.MenuListContainer {
+    display: flex;
+    width: 70%;
+}
+
+.HeaderLogo {
+    width: 40px;
+    margin-left: 3%;
+}

@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext, useEffect, useState } from "react";
+import "./App.css";
+import Crew from "./Components/Crew/Crew";
+import Destination from "./Components/Destination/Destination";
+import Home from "./Components/Home/Home";
+import Technology from "./Components/Technology/Technology";
+import Header from "./Layout/Header/Header";
+import MenuContext from "./MenuContext/menu-context";
 
 function App() {
+  const context = useContext(MenuContext);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      {context.selectedRoute === "Home" ? (
+        <Home />
+      ) : context.selectedRoute === "Destination" ? (
+        <Destination />
+      ) : context.selectedRoute === "Crew" ? (
+        <Crew />
+      ) : (
+        <Technology />
+      )}
     </div>
   );
 }
