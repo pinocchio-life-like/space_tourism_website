@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import "./App.css";
 import Crew from "./Components/Crew/Crew";
 import Destination from "./Components/Destination/Destination";

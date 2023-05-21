@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Crew.css";
 import Douglas from "./Douglas/Douglas";
-import { color, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import Mark from "./Mark/Mark";
 import Victor from "./Victor/Victor";
 import Anousheh from "./Anousheh/Anousheh";

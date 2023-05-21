@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import MenuContext from "../../MenuContext/menu-context";
 import "./Destination.css";
 import Europa from "./Europa/Europa";
