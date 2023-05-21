@@ -5,6 +5,7 @@ import Europa from "./Europa/Europa";
 import Mars from "./Mars/Mars";
 import Moon from "./Moon/Moon";
 import Titan from "./Titan/Titan";
+import Typography from "antd/es/typography/Typography";
 
 const Destination = () => {
   const context = useContext(MenuContext);
@@ -21,38 +22,38 @@ const Destination = () => {
         <div>
           <div className="DestinationNavigation">
             <div className="DestinationNavigationBar">
-              <a
+              <Typography.Link
                 href="#"
                 className={`${destination === "Moon" ? "Moon" : ""}`}
                 onClick={() => {
                   context.onDestinationChange("Moon");
                 }}>
                 MOON
-              </a>
-              <a
+              </Typography.Link>
+              <Typography.Link
                 href="#"
                 className={`${destination === "Mars" ? "Mars" : ""}`}
                 onClick={() => {
                   context.onDestinationChange("Mars");
                 }}>
                 MARS
-              </a>
-              <a
+              </Typography.Link>
+              <Typography.Link
                 href="#"
                 className={`${destination === "Europa" ? "Europa" : ""}`}
                 onClick={() => {
                   context.onDestinationChange("Europa");
                 }}>
                 EUROPA
-              </a>
-              <a
+              </Typography.Link>
+              <Typography.Link
                 href="#"
                 className={`${destination === "Titan" ? "Titan" : ""}`}
                 onClick={() => {
                   context.onDestinationChange("Titan");
                 }}>
                 TITAN
-              </a>
+              </Typography.Link>
             </div>
             <div className="DestinationDescription">
               <div>
