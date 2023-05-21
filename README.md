@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Space Tourism Website. front-end mentor challenge
+
+![Screenshot (1917)](https://user-images.githubusercontent.com/103815611/235302215-6a258688-7aa5-411a-b035-1849038e6daf.png)
+![Screenshot (1918)](https://user-images.githubusercontent.com/103815611/235302233-7d96415c-d2cf-4d0a-8c32-ce4de767c469.png)![Screenshot (1919)](https://user-images.githubusercontent.com/103815611/235302240-a46267fb-c34a-47a5-bd57-0c3023ad006d.png)
+![Screenshot (1920)](https://user-images.githubusercontent.com/103815611/235302241-bc88f253-7d43-42c0-a84c-e8dad1a443f0.png)
+![Screenshot (1921)](https://user-images.githubusercontent.com/103815611/235302243-1bd9f74c-e1fa-4f60-942d-4e36bde671c9.png)
+![Screenshot (1922)](https://user-images.githubusercontent.com/103815611/235302244-00b4143d-8428-433e-8668-78829bd72fa4.png)
+![Screenshot (1923)](https://user-images.githubusercontent.com/103815611/235302246-96a2bcf0-617f-4434-966a-a30df45ec8d9.png)
+![Screenshot (1924)](https://user-images.githubusercontent.com/103815611/235302247-dd47fb2b-29dd-4678-aa01-53f4aedd5457.png)
+![Screenshot (1925)](https://user-images.githubusercontent.com/103815611/235302249-21d1bf50-b7f9-444a-ae67-2b4ca1553cd3.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
