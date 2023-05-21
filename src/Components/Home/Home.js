@@ -1,24 +1,6 @@
-import React, { useContext, useEffect, useState } from "react";
-import MenuContext from "../../MenuContext/menu-context";
+import React from "react";
 import "./Home.css";
 const Home = () => {
-  const context = useContext(MenuContext);
-  const [bumper, setBumper] = useState(true);
-
-  //   useEffect(() => {
-  //     let timer;
-  //     if (context.selectedRoute === "Home") {
-  //       clearInterval(timer);
-  //       timer = setInterval(() => {
-  //         setBumper((prev) => !prev);
-  //         console.log(bumper);
-  //       }, 2000);
-  //     }
-  //     return () => {
-  //       clearInterval(timer);
-  //     };
-  //   }, [bumper, context]);
-
   return (
     <div>
       <div className="HomePage">
@@ -51,7 +33,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <div className={`Explore ${bumper ? "BumpUp" : ""}`}>EXPLORE</div>
+          <div className={`Explore ${true ? "BumpUp" : ""}`}>EXPLORE</div>
         </div>
       </div>
     </div>

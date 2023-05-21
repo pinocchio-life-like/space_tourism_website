@@ -23,7 +23,6 @@ const Destination = () => {
           <div className="DestinationNavigation">
             <div className="DestinationNavigationBar">
               <Typography.Link
-                href="#"
                 className={`${destination === "Moon" ? "Moon" : ""}`}
                 onClick={() => {
                   context.onDestinationChange("Moon");
@@ -31,7 +30,6 @@ const Destination = () => {
                 MOON
               </Typography.Link>
               <Typography.Link
-                href="#"
                 className={`${destination === "Mars" ? "Mars" : ""}`}
                 onClick={() => {
                   context.onDestinationChange("Mars");
@@ -39,7 +37,6 @@ const Destination = () => {
                 MARS
               </Typography.Link>
               <Typography.Link
-                href="#"
                 className={`${destination === "Europa" ? "Europa" : ""}`}
                 onClick={() => {
                   context.onDestinationChange("Europa");
@@ -47,7 +44,6 @@ const Destination = () => {
                 EUROPA
               </Typography.Link>
               <Typography.Link
-                href="#"
                 className={`${destination === "Titan" ? "Titan" : ""}`}
                 onClick={() => {
                   context.onDestinationChange("Titan");

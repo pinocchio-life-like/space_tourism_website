@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import MenuContext from "../../../MenuContext/menu-context";
 import "./MenuList.css";
+import { Typography } from "antd";
 
 const MenuList = () => {
   const context = useContext(MenuContext);
@@ -8,48 +9,44 @@ const MenuList = () => {
   return (
     <ul className="MenuList ">
       <li>
-        <a
+        <Typography.Link
           className={`${styler === "Home" ? "HomepageList" : ""}`}
-          href="#"
           onClick={() => {
             context.onRouteChange("Home");
           }}>
           <strong>00 </strong>
           HOME
-        </a>
+        </Typography.Link>
       </li>
       <li>
-        <a
+        <Typography.Link
           className={`${styler === "Destination" ? "DestinationList" : ""}`}
-          href="#"
           onClick={() => {
             context.onRouteChange("Destination");
           }}>
           <strong>01 </strong>
           DESTINATION
-        </a>
+        </Typography.Link>
       </li>
       <li>
-        <a
+        <Typography.Link
           className={`${styler === "Crew" ? "CrewList" : ""}`}
-          href="#"
           onClick={() => {
             context.onRouteChange("Crew");
           }}>
           <strong>02 </strong>
           CREW
-        </a>
+        </Typography.Link>
       </li>
       <li>
-        <a
+        <Typography.Link
           className={`${styler === "Technology" ? "TechnologyList" : ""}`}
-          href="#"
           onClick={() => {
             context.onRouteChange("Technology");
           }}>
           <strong>03 </strong>
           TECHNOLOGY
-        </a>
+        </Typography.Link>
       </li>
     </ul>
   );

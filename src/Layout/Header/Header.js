@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import MenuContext from "../../MenuContext/menu-context";
+import React from "react";
 import "./Header.css";
 import HeaderLogo from "./HeaderLogo/HeaderLogo";
 import MenuList from "./MenuList/MenuList";
